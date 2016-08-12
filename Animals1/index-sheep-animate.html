@@ -108,8 +108,8 @@
                 }
 
                 parameters = [
-                    [[1.0, 0.2, 500], texture, 55],
-                    [[5.1, 500, 1], texture2, 25],
+                    [[2.0, 0.2, 500], texture, 55],
+                    [[5.9, 10, 1], texture2, 25],
                             // [ [0.90, 0.05, 1], sprite1, 10 ],
                             // [ [0.85, 0, 1], sprite5, 8 ],
                             // [ [0.80, 0, 1], sprite4, 5 ]
@@ -125,7 +125,7 @@
 
                     particles = new THREE.Points(geometry, materials[i]);
 
-                    // particles.rotation.y = i
+                    particles.rotation.y = i
                 
                     scene.add(particles);
                     allGroups.push(particles);
