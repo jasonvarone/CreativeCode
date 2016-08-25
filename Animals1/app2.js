@@ -22,10 +22,10 @@ app.get('/', function(req, res) {
 // package on npm. This is required for using the interesting parts
 // of the API, e.g. streaming or posting tweets.
 var client = new Twitter({
-    consumer_key: 'N1AJcLKAp0MGPnnQAlNl1KcnL',
-    consumer_secret: '6VywLxzyWgKIfkgU4UzoVumFqL165rE1bsGQQMne3wtNFqMnpN',
-    access_token_key: '16472104-FIv802PCJPnkfQ0xcDGxqBvPyEtuuuqrDIZ2aHsmH',
-    access_token_secret: 'PPRioPU7dxFNloGGj9QbQbb14FT2sPmupXL0QmovVKzjx'
+    consumer_key: 'check my offline version for this',
+    consumer_secret: 'check my offline version for this',
+    access_token_key: 'check my offline version for this',
+    access_token_secret: 'check my offline version for this'
 })
 
 client.stream('statuses/filter', {
@@ -44,10 +44,10 @@ client.stream('statuses/filter', {
 });
 
 var client2 = new Twitter({
-    consumer_key: 'YLD1uEsvsxyF5if8emshgGsNA',
-    consumer_secret: 'ytaHKac8YdonHFFNwB2cPhjQYjA9iU8nVMKEppGYewKHnQToXS',
-    access_token_key: '16472104-ItFmLjjzdmePDKU4nAhE4rx90gc9UxkSDUFOZoiGd',
-    access_token_secret: 'gByUAuCvaad0dYljQpbEu5cfb5u061bdi7d8Q0VUf0eee'
+    consumer_key: 'check my offline version for this',
+    consumer_secret: 'check my offline version for this',
+    access_token_key: 'check my offline version for this',
+    access_token_secret: 'check my offline version for this'
 })
 
 client2.stream('statuses/filter', {
